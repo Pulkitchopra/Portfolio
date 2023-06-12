@@ -44,7 +44,7 @@ const Skills = (props) => {
 
     <section className='min-h-screen pb-8' id='skills'  style={{backgroundColor: props.webMode === 'light'? 'white': 'rgb(32,32,43)'}}>
         <h1 className='text-3xl text-center font-bold' style={{color: props.webMode === 'light'? 'black': 'white'}}>Skills</h1>
-    <div className=' bg-gray-200 m-16 rounded-3xl sm:m-8' >
+    <div className=' bg-gray-200 m-16 rounded-3xl sm:m-6' >
         <div className='flex items-center justify-center mt-8 gap-3 flex-wrap p-6 mx-16'>
         {skill.map(({id, logo, level, skillCount}) => {
             return(

@@ -32,7 +32,7 @@ const Projects = (props) => {
     return (
         <section className='min-h-screen pb-8' id='projects'  style={{backgroundColor: props.webMode === 'light'? 'white': 'rgb(32,32,43)'}}>
             <h1 className='text-3xl text-center font-bold' style={{color: props.webMode === 'light'? 'black': 'white'}}>Projects</h1>
-            <div className='p-6 m-16 bg-gray-200 rounded-3xl sm:m-8' >
+            <div className='p-6 m-16 bg-gray-200 rounded-3xl sm:m-6' >
                 {/* <div className='flex basis-3/5 gap-x-8'> */}
 
                 {/* <div className='grid grid-cols-2 p-6 ml-36 gap-x-6'> */}
@@ -51,7 +51,7 @@ const Projects = (props) => {
                                     <button className='bg-gray-200 p-1 rounded ml-6 my-3 sm:ml-16'>React</button>
                                     <button className='bg-gray-200 p-1 rounded ml-3 my-3'>CSS</button>
                                     {/* <button className='bg-gray-200 p-1 rounded ml-3 my-3'>{skills}</button> */}
-                                    <div className='grid grid-cols-2 content-end sm:ml-8'>
+                                    <div className='grid grid-cols-2 content-end sm:ml-3'>
 
                                         <a href='https://github.com/Pulkitchopra' className='btn text-center'>Code <i className="fa-brands fa-github"></i> </a>
                                         <a href='https://github.com/Pulkitchopra' className='btn text-center'>Project</a>
