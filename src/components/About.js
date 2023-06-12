@@ -58,7 +58,7 @@ const About = (props) => {
                     </div>
 
                     <div className='right p-6 justify-center rounded-xl sm:p-1 ' >
-                        <div className='p-8 sm:p-3 sm:w-60 bg-gray-600 sm:ml-3' >
+                        <div className='p-8 sm:p-3 sm:w-60 sm:ml-3' >
 
                             <p className='my-3 mx-6 sm:mx-1 sm:text-sm '>I'm a dedicated and enthusiastic Aspiring Software Developer who enjoys being part of a successful and productive team.<br></br> I have strong technical and interpersonal skills. I have build and deployed various Full Stack and Frontend Projects such as an Ecommerce Website, Portfolio Website and a Notes Website.</p>
                             <span className='text-lg font-semibold mx-6 sm:text-sm sm:mx-1'> My Technical Skills and languages </span>
