@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9604b990.css",
+    "main.js": "/portfolio/static/js/main.62a5675a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Pulkit_Chopra.jpg": "/portfolio/static/media/Pulkit_Chopra.4651284142972ae2956c.jpg",
+    "static/media/coding.png": "/portfolio/static/media/coding.db782c4664dfb4c9bf5f.png",
+    "static/media/Pulkit Chopra Resume.pdf": "/portfolio/static/media/Pulkit Chopra Resume.0cae26ef0bc2057c7c9d.pdf",
+    "static/media/Frame 1.png": "/portfolio/static/media/Frame 1.f41e40042ee0dfdf42a8.png",
+    "static/media/project -1.jpg": "/portfolio/static/media/project -1.c955a11e1d483e6ed654.jpg",
+    "static/media/notes app.png": "/portfolio/static/media/notes app.b1ac4c30c4c06d951b63.png",
+    "static/media/ecommerce.avif": "/portfolio/static/media/ecommerce.61fc20e3171f65eb14f8.avif",
+    "index.html": "/portfolio/index.html",
+    "main.9604b990.css.map": "/portfolio/static/css/main.9604b990.css.map",
+    "main.62a5675a.js.map": "/portfolio/static/js/main.62a5675a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9604b990.css",
+    "static/js/main.62a5675a.js"
+  ]
+}
