@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e88c78b0.css",
-    "main.js": "/portfolio/static/js/main.cbb7e816.js",
+    "main.js": "/portfolio/static/js/main.c4a440ca.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Pulkit_Chopra.jpg": "/portfolio/static/media/Pulkit_Chopra.4651284142972ae2956c.jpg",
     "static/media/coding.png": "/portfolio/static/media/coding.db782c4664dfb4c9bf5f.png",
@@ -12,11 +12,11 @@
     "static/media/ecommerce.avif": "/portfolio/static/media/ecommerce.61fc20e3171f65eb14f8.avif",
     "index.html": "/portfolio/index.html",
     "main.e88c78b0.css.map": "/portfolio/static/css/main.e88c78b0.css.map",
-    "main.cbb7e816.js.map": "/portfolio/static/js/main.cbb7e816.js.map",
+    "main.c4a440ca.js.map": "/portfolio/static/js/main.c4a440ca.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e88c78b0.css",
-    "static/js/main.cbb7e816.js"
+    "static/js/main.c4a440ca.js"
   ]
 }
