@@ -47,7 +47,7 @@ const Projects = (props) => {
                                 </div>
                                 <div className='right w-60 p-3 sm:p-1'>
                                     <h1 className='text-center white mt-3 text-lg font-semibold sm:ml-8 sm:mt-1'>{Title}</h1>
-                                    <p className='my-3 mx-3 sm:text-center sm:ml-10'>{Description}</p>
+                                    <p className='my-3 mx-3 sm:text-center sm:ml-8'>{Description}</p>
                                     <button className='bg-gray-200 p-1 rounded ml-6 my-3 sm:ml-16'>React</button>
                                     <button className='bg-gray-200 p-1 rounded ml-3 my-3'>CSS</button>
                                     {/* <button className='bg-gray-200 p-1 rounded ml-3 my-3'>{skills}</button> */}
