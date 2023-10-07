@@ -54,9 +54,10 @@ const About = (props) => {
 
                 <div className='about-section  '>
                     <div className='left ml-24 mt-8 md:ml-60 lg:ml-24'>
-                        <img src={picImage} alt='' className=' h-[350px] sm:h-48 sm:w-60  ' />
-                    </div>
 
+                        <img src={picImage} alt='' className=' h-96 w-96 sm:h-48 sm:w-60 rounded-[50%] '/>
+
+                    </div>
                     <div className='right p-6 justify-center rounded-xl sm:p-1 ' >
                         <div className='p-8 sm:p-3 sm:w-60 sm:ml-3' >
 

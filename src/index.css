@@ -71,11 +71,19 @@ code {
 
 .about-tab{
   cursor: pointer;
+
   position: relative;
+
+
+  background-color: gray;
+  padding: 8px;
+
 }
 
+
+
 .btn{
-  background-color: rgb(208, 208, 208);
+  /* background-color: rgb(208, 208, 208); */
   border-radius: 8px;
   padding: 3px;
   border: none;
@@ -107,3 +115,5 @@ form input, form textarea{
   border: none;
   border-radius: 16px;
 }
+
+
