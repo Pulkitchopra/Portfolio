@@ -16,7 +16,7 @@ const Navbar = (props) => {
     <nav className='bg-gray-300 w-max p-1 z-10 fixed left-[50%] translate-x-[-50%] bottom-2 flex rounded-3xl sm:w-80'>
 
       <ul className='flex m-1 mx-8 text-lg sm:mx-2  '>
-        <button className=' h-8 w-8 rounded-3xl hover:bg-gray-200 ' onClick={props.toggleMode}>{props.webMode === 'light' ? <i className="fa-solid fa-circle-half-stroke"></i> : <i class="fa-light fa-circle-half-stroke"></i>}</button>
+        <button className=' h-8 w-8 rounded-3xl hover:bg-gray-200 ' onClick={props.toggleMode}>{props.webMode === 'light' ? <i className="fa-solid fa-circle-half-stroke"></i> : <i class="fa-solid fa-sun"></i>}</button>
         {navlinks.map(({ id, name, link }) => {
 
           return (

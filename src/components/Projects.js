@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from '../project -1.jpg'
-import ecommerce from '../ecommerce.avif'
-import notebook from '../notes app.png'
-import cryptotracker from '../cryptotracker.png';
-import netflixclone from '../netflix clone.png'
+import logo from '../images/project -1.jpg'
+import notebook from '../images/notes app.png'
+import cryptotracker from '../images/web-crypto-project.vercel.app_.png';
+import netflixclone from '../images/netflix clone.png'
+
 
 const Projects = (props) => {
 
@@ -44,18 +44,22 @@ const Projects = (props) => {
             skills: "React",
             source: 'https://web-netflix-clone.vercel.app/'
         },
-
     ]
     return (
+
+
         <section className='min-h-screen pb-8' id='projects' style={{ backgroundColor: props.webMode === 'light' ? 'white' : 'rgb(32,32,43)' }}>
             <h1 className='text-3xl text-center font-bold text-clip' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>Projects</h1>
-            <div className='p-6 m-16 rounded-3xl sm:m-6' >
+            <div className='p-6  rounded-3xl sm:m-6' >
                 {/* <div className='flex basis-3/5 gap-x-8'> */}
 
                 {/* <div className='grid grid-cols-2 p-6 ml-36 gap-x-6'> */}
-
+                
                 {projects.map(({ id, logo, Title, Description, source }) => {
+
+
                     return (
+                   
                         <div className='flex justify-center my-8' key={id}>
                             <div className='flex sm:grid bg-white p-3 rounded-lg shadow-xl'>
 
@@ -83,15 +87,9 @@ const Projects = (props) => {
                                 </div>
                             </div>
                         </div>
+
                     )
                 })}
-
-
-                {/* </div> */}
-                {/* <div className='bg-gray-600 basis-2/5'>
-                    <img src={picImage} alt='' className='h-96'/>
-                    </div> */}
-                {/* </div> */}
             </div>
         </section>
     )

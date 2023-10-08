@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import picImage from '../Pulkit_Chopra.jpg'
+import picImage from '../images/Pulkit_Chopra.jpg'
 import AboutTabs from './AboutTabs'
-import coding from '../coding.png'
+import coding from '../images/coding.png'
 import Resume from '../Pulkit Chopra Resume.pdf'
 
 

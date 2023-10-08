@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Frame 1.png'
+import logo from '../images/Frame 1.png'
 
 const Home = (props) => {
 
