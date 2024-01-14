@@ -17,7 +17,7 @@ const Home = (props) => {
             <h2 className='font-serif text-3xl text-gray-600 heading'>And I am a </h2>
             <span className='font-serif text-3xl font-bold heading' style={{color: props.webMode === 'light'? 'black': 'white'}}>Software Developer</span>
             <div className='flex my-3 md:justify-center'>
-              <button className='flex bg-blue-600 py-3 px-5 rounded-3xl text-white hover:bg-blue-500 font-semibold my-3' >Contact Me</button>
+              <a href='#contact' className='flex bg-blue-600 py-3 px-5 rounded-3xl text-white hover:bg-blue-500 font-semibold my-3' >Contact Me</a>
             </div>
             <div className=' flex my-3 text-3xl md:justify-center' style={{color: props.webMode === 'light'? 'black': 'white'}} >
               <a href='https://www.linkedin.com/in/pulkit-chopra-04775a169/' className='hover:text-gray-800 mx-6'><i className="fa-brands fa-linkedin "></i></a>

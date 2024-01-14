@@ -48,7 +48,7 @@ const Projects = (props) => {
     return (
 
 
-        <section className='min-h-screen pb-8' id='projects' style={{ backgroundColor: props.webMode === 'light' ? 'white' : 'rgb(32,32,43)' }}>
+        <section className='min-h-screen pb-8' id='projects' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(252,252,252)' : 'rgb(32,32,43)' }}>
             <h1 className='text-3xl text-center font-bold text-clip' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>Projects</h1>
             <div className='p-6  rounded-3xl sm:m-6' >
                 {/* <div className='flex basis-3/5 gap-x-8'> */}

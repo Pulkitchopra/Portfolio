@@ -1,12 +1,12 @@
 import React from 'react'
-
+import service1 from '../images/service-1.jpg'
 const Services = (props) => {
 
     const services = [
         {
 
             id: 1,
-            image: 'fa-solid fa-code',
+            image:  'fa-solid fa-code',
             Title: 'Frontend Development',
             Description: 'Frontend Development Services using React, JavaScript, HTML, CSS '
 

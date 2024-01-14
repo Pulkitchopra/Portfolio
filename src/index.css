@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 code {
@@ -74,11 +75,29 @@ code {
 
   position: relative;
 
-
-  background-color: gray;
   padding: 8px;
 
 }
+
+.about-tab::after{
+
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+/* .about-tab.active-tab-links::after{
+  width: 50%;
+} */
+
+
+
+
 
 
 
@@ -115,3 +134,5 @@ form input, form textarea{
   border: none;
   border-radius: 16px;
 }
+
+

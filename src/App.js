@@ -15,13 +15,13 @@ function App() {
   const toggleMode = () => {
     if(webMode === 'light'){
       setWebMode('dark');
-      document.body.backgroundColor = 'rgb(32,32,43)';
-      document.body.color = 'white'
+      document.body.style.backgroundColor = 'rgb(32,32,43)';
+      document.body.style.color = 'white'
     }
     else{
       setWebMode('light');
-      document.body.backgroundColor = 'rgb(208, 208, 208)';
-      document.body.color = 'black'
+      document.body.style.backgroundColor = 'rgb(208, 208, 208)';
+      document.body.style.color = 'black'
     }
   }
   return (
