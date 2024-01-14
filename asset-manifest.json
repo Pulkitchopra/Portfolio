@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4451606c.css",
-    "main.js": "/portfolio/static/js/main.c8064def.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/portfolio/static/css/main.a71f3417.css",
+    "main.js": "/portfolio/static/js/main.5237639f.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/netflix clone.png": "/portfolio/static/media/netflix clone.3a49039a148b0de55ff2.png",
     "static/media/Pulkit_Chopra.jpg": "/portfolio/static/media/Pulkit_Chopra.4651284142972ae2956c.jpg",
     "static/media/web-crypto-project.vercel.app_.png": "/portfolio/static/media/web-crypto-project.vercel.app_.1fc2464bb85a6ab0ffb0.png",
     "static/media/Frame 1.png": "/portfolio/static/media/Frame 1.f41e40042ee0dfdf42a8.png",
     "static/media/Pulkit Chopra Resume.pdf": "/portfolio/static/media/Pulkit Chopra Resume.8de51c54dfe896b04b96.pdf",
-    "static/media/reactjs.png": "/portfolio/static/media/reactjs.73dbb5bcec516da82694.png",
     "static/media/project -1.jpg": "/portfolio/static/media/project -1.c955a11e1d483e6ed654.jpg",
     "static/media/notes app.png": "/portfolio/static/media/notes app.b1ac4c30c4c06d951b63.png",
-    "static/media/nodejs.png": "/portfolio/static/media/nodejs.a49b92dd97b8f383ec81.png",
-    "static/media/java.png": "/portfolio/static/media/java.09f5a80c7f42f1c28839.png",
-    "static/media/JavaScript.png": "/portfolio/static/media/JavaScript.062825dbceed44567e91.png",
-    "static/media/service-1.jpg": "/portfolio/static/media/service-1.c1904bd4bf99dc7f62ff.jpg",
-    "static/media/css.png": "/portfolio/static/media/css.2c665fabd4e233fa63ca.png",
     "index.html": "/portfolio/index.html",
-    "main.4451606c.css.map": "/portfolio/static/css/main.4451606c.css.map",
-    "main.c8064def.js.map": "/portfolio/static/js/main.c8064def.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.a71f3417.css.map": "/portfolio/static/css/main.a71f3417.css.map",
+    "main.5237639f.js.map": "/portfolio/static/js/main.5237639f.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4451606c.css",
-    "static/js/main.c8064def.js"
+    "static/css/main.a71f3417.css",
+    "static/js/main.5237639f.js"
   ]
 }
