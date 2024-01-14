@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Services from './components/Services';
-import Contact from './components/Contact';
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import About from './Components/About';
+import Projects from './Components/Projects';
+// import Skills from './components/Skills';
+import Services from './Components/Services';
+import Contact from './Components/Contact';
 import { useState } from 'react';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
     <Home webMode = {webMode} toggleMode ={ toggleMode } />
     <About webMode = {webMode} toggleMode ={ toggleMode }/>
     <Projects webMode = {webMode} toggleMode ={ toggleMode }/>
-    <Skills webMode = {webMode} toggleMode ={ toggleMode }/>
+    {/* <Skills webMode = {webMode} toggleMode ={ toggleMode }/> */}
     <Services webMode = {webMode} toggleMode ={ toggleMode }/>
     <Contact webMode = {webMode} toggleMode ={ toggleMode }/>
 

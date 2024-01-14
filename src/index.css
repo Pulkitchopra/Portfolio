@@ -136,3 +136,13 @@ form input, form textarea{
 }
 
 
+
+/* 
+.project-img{
+
+  transform: translateY(0%);
+  transition: transform 10s ease-in-out 0s ;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+} */

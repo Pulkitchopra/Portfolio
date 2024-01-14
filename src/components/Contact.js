@@ -6,7 +6,7 @@ const Contact = (props) => {
     <section className='pb-8' id='contact'  style={{backgroundColor: props.webMode === 'light'? 'white': 'rgb(32,32,43)'}} >
     <h1 className='text-3xl text-center font-bold' style={{color: props.webMode === 'light'? 'black': 'white'}}>Contact Page</h1>
 
-    <div className='flex mt-8 bg-gray-200 m-16 p-6 rounded-3xl sm:grid sm:grid-cols-1 sm:gap-y-6 sm:m-6'>
+    <div className='flex mt-8 m-16 p-6 rounded-3xl sm:grid sm:grid-cols-1 sm:gap-y-6 sm:m-6'>
     <div className='ml-36 text-lg contact-left md:ml-1 lg:ml-36 sm:ml-3'>
         <h1 className='text-3xl font-bold m-6 sm:text-xl md:text-xl lg:text-3xl '>Contact Us Page</h1>
         <p className='text-xl m-6 my-6 sm:text-sm md:text-md md:m-1 lg:text-xl lg:m-6'><i className="fa-solid fa-phone mx-3"></i>Phone Number</p>
