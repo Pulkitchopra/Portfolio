@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a71f3417.css",
-    "main.js": "/portfolio/static/js/main.5237639f.js",
+    "main.css": "/portfolio/static/css/main.32f619b1.css",
+    "main.js": "/portfolio/static/js/main.0162ed39.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/netflix clone.png": "/portfolio/static/media/netflix clone.3a49039a148b0de55ff2.png",
     "static/media/Pulkit_Chopra.jpg": "/portfolio/static/media/Pulkit_Chopra.4651284142972ae2956c.jpg",
@@ -11,12 +11,12 @@
     "static/media/project -1.jpg": "/portfolio/static/media/project -1.c955a11e1d483e6ed654.jpg",
     "static/media/notes app.png": "/portfolio/static/media/notes app.b1ac4c30c4c06d951b63.png",
     "index.html": "/portfolio/index.html",
-    "main.a71f3417.css.map": "/portfolio/static/css/main.a71f3417.css.map",
-    "main.5237639f.js.map": "/portfolio/static/js/main.5237639f.js.map",
+    "main.32f619b1.css.map": "/portfolio/static/css/main.32f619b1.css.map",
+    "main.0162ed39.js.map": "/portfolio/static/js/main.0162ed39.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71f3417.css",
-    "static/js/main.5237639f.js"
+    "static/css/main.32f619b1.css",
+    "static/js/main.0162ed39.js"
   ]
 }
