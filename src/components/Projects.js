@@ -3,6 +3,13 @@ import logo from '../images/project -1.jpg'
 import notebook from '../images/notes app.png'
 import cryptotracker from '../images/web-crypto-project.vercel.app_.png';
 import netflixclone from '../images/netflix clone.png';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
+
+
+
 
 const Projects = (props) => {
 
@@ -50,11 +57,32 @@ const Projects = (props) => {
         <section className='min-h-screen pb-8' id='projects' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(252,252,252)' : 'rgb(32,32,43)' }}>
             <h1 className='text-3xl text-center font-bold text-clip' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>Projects</h1>
             <div className='p-6  rounded-3xl sm:m-6' >
+
+            <Swiper
+            modules={[Pagination, Autoplay]}
+            spaceBetween={20}
+            breakpoints={{
+              768: {
+                slidesPerView: 1,
+              },
+            }}
+            autoplay={{
+              delay: 5000,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation
+
+            loop={true}>
                 
                 {projects.map(({ id, logo, Title, Description, source, skill2 }) => {
 
 
                     return (
+
+                        <SwiperSlide key={id}>
+
                    
                         <div className='flex justify-center my-8' key={id}>
                             <div className='flex sm:grid bg-white p-3 rounded-lg shadow-xl'>
@@ -74,18 +102,20 @@ const Projects = (props) => {
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>{skill2} </button>
                                     </div>
                                     
-                                    <div className='flex gap-8 justify-evenly my-3 content-center text-lg'>
+                                    <div className='flex gap-8 justify-evenly my-8 content-center text-lg  '>
 
                                         <a href='https://github.com/Pulkitchopra' className='btn text-center'>Code <i className="fa-brands fa-github"></i> </a>
-                                        <a href={source} className='btn text-center'>Project <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                                        <a href={source} className='btn text-center'>Project <i className="fa-solid fa-arrow-up-right-from-square"></i> </a>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
+                        </SwiperSlide>
 
                     )
                 })}
+                </Swiper>
             </div>
         </section>
     )
