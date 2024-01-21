@@ -6,7 +6,7 @@ const Home = (props) => {
   return (
 
 
-    <section className='flex min-h-screen' id='home' style={{backgroundColor: props.webMode === 'light'? 'white': 'rgb(32,32,43)'}}>
+    <section className='flex min-h-screen' id='home' style={{backgroundColor: props.webMode === 'light'? 'rgb(248,248,248)': 'rgb(32,32,43)'}}>
       <div className='flex m-3 md:grid lg:flex sm:grid  '>
         <div className='flex justify-center my-36 ml-48 mx-6 p-3 sm:my-3 sm:mt-16 sm:ml-6 md:my-8 md:ml-24 lg:ml-48 lg:my-36 '>
 

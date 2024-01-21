@@ -5,7 +5,7 @@ import {serviceData} from './Data/ServicesData';
 const Services = (props) => {
 
   return (
-   <section className='pb-8' id='services' style={{backgroundColor: props.webMode === 'light'? 'white': 'rgb(32,32,43)'}}>
+   <section className='pb-8' id='services' style={{backgroundColor: props.webMode === 'light'? 'rgb(248,248,248)': 'rgb(32,32,43)'}}>
    <h1 className='text-center text-3xl font-bold' style={{color: props.webMode === 'light'? 'black': 'white'}}>My Services</h1>
     <div className='p-16 grid grid-cols-3 gap-x-3 m-10 rounded-3xl sm:grid-cols-1 sm:p-6 sm:gap-y-6 sm:m-6 md:grid-cols-1 md:gap-y-6 lg:grid-cols-3'>
     {serviceData.map(({id, image, Title, Description}) => {

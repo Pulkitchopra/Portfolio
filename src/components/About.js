@@ -13,7 +13,7 @@ const About = (props) => {
     }
     return (
 
-        <section className='min-h-screen pb-8' id='about' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(252,252,252)' : 'rgb(32,32,43)' }}>
+        <section className='min-h-screen pb-8' id='about' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(248,248,248)' : 'rgb(32,32,43)' }}>
             <h1 className='text-3xl text-center font-bold' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>About Me</h1>
 
             <div className='about-container mt-9 p-3 m-16 rounded-3xl sm:p-1 sm:m-6 '>

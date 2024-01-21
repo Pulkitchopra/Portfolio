@@ -21,7 +21,7 @@ function App() {
     }
     else{
       setWebMode('light');
-      document.body.style.backgroundColor = 'rgb(208, 208, 208)';
+      document.body.style.backgroundColor = 'rgb(248,248,248)';
       document.body.style.color = 'black'
     }
   }

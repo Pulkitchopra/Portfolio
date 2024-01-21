@@ -27,7 +27,7 @@ const Contact = (props) => {
     }
 
     return (
-        <section className='pb-8' id='contact' style={{ backgroundColor: props.webMode === 'light' ? 'white' : 'rgb(32,32,43)' }} >
+        <section className='pb-8' id='contact' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(248,248,248) ' : 'rgb(32,32,43)' }} >
             <h1 className='text-3xl text-center font-bold' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>Contact Page</h1>
 
             <div className='flex mt-8 m-16 p-6 rounded-3xl sm:grid sm:grid-cols-1 sm:gap-y-6 sm:m-6'>
