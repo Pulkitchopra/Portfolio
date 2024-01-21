@@ -45,13 +45,16 @@ const Contact = (props) => {
                 <div className='flex contact-right '>
                     <form className='form-group' onSubmit={handleSubmit}>
                         <div className='md:w-80 sm:w-60 m-6 sm:ml-1'>
+                        <label>Name: </label>
                             <input type='text' name='name' placeholder='Enter your Name' required onChange={(e) => setName(e.target.value)} value={name} />
                         </div>
                         <div className='sm:w-60 m-6 sm:ml-1'>
+                        <label>Email: </label>
                             <input type='text' name='email' placeholder='Enter your Email' required  onChange={(e) => setEmail(e.target.value)} value={email} />
                         </div>
 
                         <div className='sm:w-60 m-6 sm:ml-1'>
+                        <label>Subject: </label>
                             <textarea name='subject' id=' ' cols={30} rows={5} placeholder='Write Subject' required onChange={(e) => setSubject(e.target.value)} value={subject} ></textarea>
                         </div>
                         <button className=' bg-blue-600 p-3 rounded-xl m-6 text-lg text-white font-semibold'>Submit</button>

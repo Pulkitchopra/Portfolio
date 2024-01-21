@@ -6,12 +6,13 @@ import Projects from './Components/Projects';
 // import Skills from './components/Skills';
 import Services from './Components/Services';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 import { useState } from 'react';
 
 function App() {
 
   
-  const[webMode, setWebMode] = useState ('light');
+  const[webMode, setWebMode] = useState ('dark');
   const toggleMode = () => {
     if(webMode === 'light'){
       setWebMode('dark');
@@ -35,6 +36,7 @@ function App() {
     {/* <Skills webMode = {webMode} toggleMode ={ toggleMode }/> */}
     <Services webMode = {webMode} toggleMode ={ toggleMode }/>
     <Contact webMode = {webMode} toggleMode ={ toggleMode }/>
+    <Footer/>
 
 
     </div>

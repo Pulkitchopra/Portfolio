@@ -97,12 +97,12 @@ const Projects = (props) => {
                                 <div className='right w-80 p-8 sm:p-1 h-96 my-3'>
                                     <h1 className='text-center white mt-3 text-xl font-bold sm:ml-8 sm:mt-1'>{Title}</h1>
                                     <p className=' text-lg font-semibold my-6 text-gray-500 text-center'>{Description}</p>
-                                    <div className='flex gap-4 justify-center'>
+                                    <div className='flex gap-4 justify-center text-black'>
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>React</button>
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>{skill2} </button>
                                     </div>
                                     
-                                    <div className='flex gap-8 justify-evenly my-8 content-center text-lg  '>
+                                    <div className='flex gap-8 justify-evenly my-8 content-center text-lg text-gray-800  '>
 
                                         <a href='https://github.com/Pulkitchopra' className='btn text-center'>Code <i className="fa-brands fa-github"></i> </a>
                                         <a href={source} className='btn text-center'>Project <i className="fa-solid fa-arrow-up-right-from-square"></i> </a>
