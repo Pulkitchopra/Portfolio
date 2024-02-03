@@ -14,7 +14,7 @@ const About = (props) => {
     return (
 
         <section className='min-h-screen pb-8' id='about' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(248,248,248)' : 'rgb(32,32,43)' }}>
-            <h1 className='text-3xl text-center font-bold' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>About Me</h1>
+            <h1 className='text-3xl text-center font-bold' style={{ color: props.webMode === 'dark' ? 'white' : 'black' }}>About Me</h1>
 
             <div className='about-container mt-9 p-3 m-16 rounded-3xl sm:p-1 sm:m-6 '>
 
@@ -74,8 +74,8 @@ const About = (props) => {
                                 </div>
 
                                 <div className='my-3 sm:my-1 text-5xl sm:text-2xl'>
-                                <p className='text-lg font-semibold sm:text-sm mx-6 sm:mx-1'> My Technical Skills and languages </p>
-                                    <div className='flex my-6 cursor-pointer '>
+                                <p className='text-lg font-semibold sm:text-sm mx-6'> My Technical Skills and languages </p>
+                                    <div className='flex my-6 cursor-pointer'>
                                         <img src='https://skillicons.dev/icons?i=html,css' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8 ' />
 
                                         <img src='https://skillicons.dev/icons?i=javascript,react' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8' />

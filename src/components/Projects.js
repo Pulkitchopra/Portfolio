@@ -56,7 +56,7 @@ const Projects = (props) => {
 
         <section className='min-h-screen pb-8' id='projects' style={{ backgroundColor: props.webMode === 'light' ? 'rgb(248,248,248)' : 'rgb(32,32,43)' }}>
             <h1 className='text-3xl text-center font-bold text-clip' style={{ color: props.webMode === 'light' ? 'black' : 'white' }}>Projects</h1>
-            <div className='p-6  rounded-3xl sm:m-6' >
+            <div className='p-6 rounded-3xl sm:m-6' >
 
             <Swiper
             modules={[Pagination, Autoplay]}
@@ -66,9 +66,9 @@ const Projects = (props) => {
                 slidesPerView: 1,
               },
             }}
-            autoplay={{
-              delay: 5000,
-            }}
+            // autoplay={{
+            //   delay: 5000,
+            // }}
             pagination={{
               clickable: true,
             }}
@@ -85,16 +85,16 @@ const Projects = (props) => {
 
                    
                         <div className='flex justify-center my-8' key={id}>
-                            <div className='flex sm:grid bg-white p-3 rounded-lg shadow-xl'>
+                            <div className='flex sm:grid bg-white rounded-xl sm:rounded-xl shadow-xl'>
 
-                                <div className='p-3'>
+                                <div className='p-3 sm:p-10'>
 
 
                                 <a href={source}>    
                                     <img src={logo} className='h-96 w-[34rem] sm:h-48 rounded-md project-img' alt='' />
                                 </a>
                                 </div>
-                                <div className='right w-80 p-8 sm:p-1 h-96 my-3'>
+                                <div className=' w-80 p-6 sm:p-6 h-96 my-3 sm:my-1 bg-gray-300'>
                                     <h1 className='text-center white mt-3 text-xl font-bold sm:ml-8 sm:mt-1'>{Title}</h1>
                                     <p className=' text-lg font-semibold my-6 text-gray-500 text-center'>{Description}</p>
                                     <div className='flex gap-4 justify-center text-black'>
@@ -102,7 +102,7 @@ const Projects = (props) => {
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>{skill2} </button>
                                     </div>
                                     
-                                    <div className='flex gap-8 justify-evenly my-8 content-center text-lg text-gray-800  '>
+                                    <div className='flex gap-8 justify-evenly my-6 content-center text-lg text-gray-800'>
 
                                         <a href='https://github.com/Pulkitchopra' className='btn text-center'>Code <i className="fa-brands fa-github"></i> </a>
                                         <a href={source} className='btn text-center'>Project <i className="fa-solid fa-arrow-up-right-from-square"></i> </a>
