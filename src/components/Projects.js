@@ -93,7 +93,7 @@ const Projects = (props) => {
                                 </a>
                                 </div>
                                 <div className=' w-80 p-6 sm:p-8 h-96 my-3 sm:my-0'>
-                                    <h1 className='text-center mt-3 text-xl font-bold sm:mt-0'>{Title}</h1>
+                                    <h1 className='text-center white mt-3 text-xl font-bold sm:mt-0'>{Title}</h1>
                                     <p className=' text-lg font-semibold my-6 sm:my-3 text-gray-500 text-center'>{Description}</p>
                                     <div className='flex gap-4 justify-center text-black'>
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>React</button>

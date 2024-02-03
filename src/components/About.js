@@ -27,7 +27,7 @@ const About = (props) => {
 
                     <div className='right p-6 justify-center rounded-xl sm:p-1 ' >
 
-                        <div className='flex text-xl mt-6 text-center gap-4 mx-12 sm:mx-4 '>
+                        <div className='flex text-xl mt-6 text-center gap-4 mx-12 sm:mx-0 '>
                             <p className='about-tab active-tab-links' onClick={() => updateToggle(1)}>About</p>
                             <p className='about-tab' onClick={() => updateToggle(2)}>Education</p>
                             <p className='about-tab' onClick={() => updateToggle(3)}>Experience</p>
