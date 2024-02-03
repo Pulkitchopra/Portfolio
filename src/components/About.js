@@ -76,12 +76,12 @@ const About = (props) => {
                                 <div className='my-3 sm:my-1 text-5xl sm:text-2xl'>
                                 <p className='text-lg font-semibold sm:text-sm mx-6'> My Technical Skills and languages </p>
                                     <div className='flex my-6 cursor-pointer'>
-                                        <img src='https://skillicons.dev/icons?i=html,css' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8 ' />
+                                        <img src='https://skillicons.dev/icons?i=html,css' alt='skills' className='h-12 mx-6 sm:mx-0 sm:h-8 ' />
 
-                                        <img src='https://skillicons.dev/icons?i=javascript,react' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8' />
-                                        <img src='https://skillicons.dev/icons?i=java,spring' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8' />
+                                        <img src='https://skillicons.dev/icons?i=javascript,react' alt='skills' className='h-12 mx-6 sm:mx-0 sm:h-8' />
+                                        <img src='https://skillicons.dev/icons?i=java,spring' alt='skills' className='h-12 mx-6 sm:mx-0 sm:h-8' />
 
-                                        <img src='https://skillicons.dev/icons?i=nodejs,express' alt='skills' className='h-12 mx-6 sm:mx-1 sm:h-8' />
+                                        <img src='https://skillicons.dev/icons?i=nodejs,express' alt='skills' className='h-12 mx-6 sm:mx-0 sm:h-8' />
                                     </div>
 
                                     <a href={Resume} download className='bg-blue-600 text-xl rounded-xl p-3 text-white mx-6 font-semibold hover:bg-blue-500 sm:text-sm'>Download CV</a>
