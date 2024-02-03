@@ -94,7 +94,7 @@ const Projects = (props) => {
                                     <img src={logo} className='h-96 w-[34rem] sm:h-48 rounded-md project-img' alt='' />
                                 </a>
                                 </div>
-                                <div className=' w-80 p-6 sm:p-6 h-96 my-3 sm:my-1 bg-gray-300'>
+                                <div className=' w-80 p-6 sm:p-6 h-96 my-3 sm:my-1'>
                                     <h1 className='text-center white mt-3 text-xl font-bold sm:ml-8 sm:mt-1'>{Title}</h1>
                                     <p className=' text-lg font-semibold my-6 text-gray-500 text-center'>{Description}</p>
                                     <div className='flex gap-4 justify-center text-black'>
