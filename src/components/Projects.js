@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/project -1.jpg'
-import notebook from '../images/notes app.png'
+import sheetbook from '../images/SheetBook.png'
 import cryptotracker from '../images/web-crypto-project.vercel.app_.png';
 import netflixclone from '../images/netflix clone.png';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,7 +19,7 @@ const Projects = (props) => {
             logo: logo,
             Title: "Portfolio Website",
             Description: "Designed and deployed a responsive Personal Portfolio website using React JS and Tailwind CSS.",
-            skills: "React",
+            skill1: "React",
             skill2: "Tailwind",
             source: 'https://pulkitchopra.github.io/portfolio/'
         },
@@ -28,25 +28,25 @@ const Projects = (props) => {
             logo: cryptotracker,
             Title: "CryptoTracker",
             Description: "Build and deployed a responsive Cryptocurrency tracking website using React JS. ",
-            skills: "React",
+            skill1: "React",
             skill2: "Material UI",
             source: 'https://web-crypto-project.vercel.app/'
         },
         {
             id: 3,
-            logo: notebook,
-            Title: "Notes Website",
-            Description: "Notes website for writing, adding, deleting and updating notes.",
-            skills: "React",
+            logo: sheetbook,
+            Title: "SheetBook",
+            Description: "Google Sheets Clone using Data Structures and Algorithms. Implemented Cycle Detection Algorithm",
+            skill1: "Vanilla JS",
             skill2: "CSS",
-            source: 'notebook'
+            source: 'https://sheet-book.vercel.app/'
         },
         {
             id: 4,
             logo: netflixclone,
             Title: "Netflix Clone",
             Description: "Designed and developed a Full Stack Netflix Clone using React JS and Firebase.",
-            skills: "React",
+            skill1: "React",
             skill2: "CSS",
             source: 'https://web-netflix-clone.vercel.app/'
         },
@@ -76,7 +76,7 @@ const Projects = (props) => {
 
             loop={true}>
                 
-                {projects.map(({ id, logo, Title, Description, source, skill2 }) => {
+                {projects.map(({ id, logo, Title, Description, source, skill1, skill2 }) => {
 
 
                     return (
@@ -96,7 +96,7 @@ const Projects = (props) => {
                                     <h1 className='text-center white mt-3 text-xl font-bold sm:mt-0'>{Title}</h1>
                                     <p className=' text-lg font-semibold my-6 sm:my-3 text-gray-500 text-center'>{Description}</p>
                                     <div className='flex gap-4 justify-center text-black'>
-                                        <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>React</button>
+                                        <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>{skill1} </button>
                                         <button className='bg-white p-2 rounded my-3 text-lg shadow-md'>{skill2} </button>
                                     </div>
                                     
