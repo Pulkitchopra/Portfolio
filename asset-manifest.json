@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c5cff35c.css",
-    "main.js": "/portfolio/static/js/main.e619d3a7.js",
+    "main.js": "/portfolio/static/js/main.75425b21.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/netflix clone.png": "/portfolio/static/media/netflix clone.3a49039a148b0de55ff2.png",
     "static/media/Pulkit_Chopra.jpg": "/portfolio/static/media/Pulkit_Chopra.4651284142972ae2956c.jpg",
@@ -9,14 +9,14 @@
     "static/media/Frame 1.png": "/portfolio/static/media/Frame 1.f41e40042ee0dfdf42a8.png",
     "static/media/Pulkit Chopra Resume.pdf": "/portfolio/static/media/Pulkit Chopra Resume.8de51c54dfe896b04b96.pdf",
     "static/media/project -1.jpg": "/portfolio/static/media/project -1.c955a11e1d483e6ed654.jpg",
-    "static/media/notes app.png": "/portfolio/static/media/notes app.b1ac4c30c4c06d951b63.png",
+    "static/media/SheetBook.png": "/portfolio/static/media/SheetBook.390c39468b9022689d3d.png",
     "index.html": "/portfolio/index.html",
     "main.c5cff35c.css.map": "/portfolio/static/css/main.c5cff35c.css.map",
-    "main.e619d3a7.js.map": "/portfolio/static/js/main.e619d3a7.js.map",
+    "main.75425b21.js.map": "/portfolio/static/js/main.75425b21.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5cff35c.css",
-    "static/js/main.e619d3a7.js"
+    "static/js/main.75425b21.js"
   ]
 }
